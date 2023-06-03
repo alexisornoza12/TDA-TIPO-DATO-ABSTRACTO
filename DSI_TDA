@@ -1,0 +1,13 @@
+class Libro:
+    def __init__(self, titulo, autor):
+        self.titulo = titulo
+        self.autor = autor
+
+# Crear objetos de tipo Libro
+libro1 = Libro("El gran Gatsby", "F. Scott Fitzgerald")
+libro2 = Libro("1984", "George Orwell")
+
+# Acceder a la información guardada en los objetos
+print(libro1.titulo)  # Imprimir título del libro1: El gran Gatsby
+print(libro2.autor)   # Imprimir autor del libro2: George Orwell
+
